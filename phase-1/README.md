@@ -1,6 +1,8 @@
 # Phase 1 Practice Project
 
-A Python practice project managed with Poetry.
+A Python practice project managed with Poetry.. 
+
+this is basic project in unit testing in pure python logic.
 
 ## Setup
 

@@ -1,8 +1,7 @@
 import unittest
-
 from django.test import TestCase
 
-class TestBlog(TestCase):
+class TestBlogAPI(TestCase):
     def test_blog_list(self):
         self.assertEqual(1, 1)
         

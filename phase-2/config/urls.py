@@ -8,7 +8,11 @@ from ninja import NinjaAPI
 
 from blog.api import router
 
-api = NinjaAPI(title="Blog API", description="A simple blog API with Django Ninja")
+api = NinjaAPI(
+    title="Blog API",
+    description="A simple blog API with Django Ninja",
+    docs_url="/docs"
+)
 api.add_router("posts/", router, tags=["posts"])
 
 
